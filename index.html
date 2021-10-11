@@ -54,14 +54,6 @@ layout: default
     </div>
 
     <div>
-      <form method="post" action="https://weddinginvitation-staticman.herokuapp.com/v3/entry/github/rizalnramadhan/rizalnramadhan.github.io/main"">
-        <input name="options[redirect]" type="hidden" value="/thankyou">
-        <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-        <label>Nama<input name="fields[name]" type="text"></label>
-        <label>Pesan<textarea name="fields[message]"></textarea></label>
-        <button type="submit">Kirim</button>
-      </form>
-
       {% assign comments = site.data.comments | sort %}
 
       {% for comment in comments reversed %}
