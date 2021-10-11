@@ -1,9 +1,7 @@
 <form method="POST" action="https://weddinginvitation-staticman.herokuapp.com/v3/entry/github/rizalnramadhan/rizalnramadhan.github.io/main">
-  <input name="options[redirect]" type="hidden" value="http://rizalnramadhan.github.io/thankyou">
-
+  <input name="options[redirect]" type="hidden" value="/thankyou">
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <label class="pb3">Nama<input class="serif w5" name="fields[name]" type="text"></label>
-  <label class="pb3">Pesan<textarea class="serif w5 h5" name="fields[message]"></textarea></label>
-
-  <button class="pa2" type="submit">Kirim</button>
+  <label>Nama<input name="fields[name]" type="text"></label>
+  <label>Pesan<textarea name="fields[message]"></textarea></label>
+  <button type="submit">Kirim</button>
 </form>
