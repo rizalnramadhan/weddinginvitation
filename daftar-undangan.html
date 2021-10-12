@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="w-100 vh-100 flex justify-center items-center serif">
+  <div class="w-50-ns w-80">
+    <div class="w5">
+      Undangan
+    </div>
+    <div class="pb3">
+      {% for undangan in site.undangan %}
+      <div class="">
+        <a href="{{undangan.url}}">{{undangan.title}}</a>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="w5">
+      Undangan Virtual
+    </div>
+    <div>
+      {% for undanganvirtual in site.undanganvirtual %}
+      <div class="">
+        <a href="{{undanganvirtual.url}}">{{undanganvirtual.title}}</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
