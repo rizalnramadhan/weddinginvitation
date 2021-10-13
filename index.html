@@ -1,16 +1,11 @@
 ---
 layout: default
 ---
-<div class="w-100 vh-100 flex justify-center items-center">
-  <div class="w5 tc">
-    <p>30.10.21.</p>
-    <img src="/assets/header.png" alt="Jiwa & Rizal">
-  </div>
-</div>
+{% include header.html %}
 
 <div class="w-100 vh-100 flex justify-center items-center">
   <div class="w-50-ns w-80 flex flex-column items-center f4 lh-copy">
-    <img class="db w5-ns w4 pb3" src="/assets/bismillah.png">
+    <img class="db w5-ns w4 pb3 svg" src="/assets/bismillah.svg">
     <!-- <img class="db ba b--red" src="/assets/img-1.png"> -->
     <p>Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud mengundang Bapak/Ibu/Saudara/i dalam acara akad nikah putra-putri kami:</p>
   </div>
@@ -19,14 +14,18 @@ layout: default
 <div class="w-100 vh-100 flex justify-center items-center">
   <div class="w5 flex flex-wrap justify-center f5 lh-copy">
     <p class="tl">Putri dari <b>Bapak Tisna Sanjaya</b> & <b>Ibu Molly Agustina</b></p>
-    <img src="/assets/bride_groom.png">
+    <div class="w5 f2 lh-title relative bridegroom flex items-center">
+      <p class="tl ma0 pa0 absolute glow2 b svg top-0">Nadya Jiwa Saraswati</p>
+      <img class="ba" src="/assets/bride_groom.png">
+      <p class="tr ma0 pa0 absolute glow2 b svg bottom-0">Rizal Nugraha Ramadhan</p>
+    </div>
     <p class="tr">Putra dari <b>Bapak Wasripin</b> & <b>Ibu Yumalia S</b></p>
   </div>
 </div>
 
 <div class="w-100 vh-100 flex justify-center items-center">
   <div class="w-50-ns w-80 flex flex-wrap justify-center f9 lh-copy tc">
-    <img class="w3" src="/assets/apology.png">
+    <img class="w3 svg" src="/assets/apology.svg">
     <p>
       Dalam keterbatasan di kondisi pandemi saat ini, kami memohon maaf belum dapat mengundang Bapak/lbu/Saudara/i menghadiri acara pernikahan kedua mempelai secara langsung.
       <br>

@@ -3,12 +3,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
 @font-face {
-    font-family: Cantique;
-    src: url('/assets/Cantique-Normal.woff2') format('woff2'),
-         url('/assets/Cantique-Normal.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: Cantique;
+  src: url('/assets/Cantique-Normal.woff2') format('woff2'),
+    url('/assets/Cantique-Normal.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.svg {
+  filter: brightness(0) saturate(100%) invert(15%) sepia(97%) saturate(5693%) hue-rotate(228deg) brightness(102%) contrast(91%)
+}
 
+.glow {
+  filter: brightness(0) saturate(100%) invert(15%) sepia(97%) saturate(5693%) hue-rotate(228deg) brightness(102%) contrast(91%)
+  drop-shadow(4px -4px 2px rgba(255, 255, 255, 0.8))
+}
+
+.glow2 {
+  filter: brightness(0) saturate(100%) invert(15%) sepia(97%) saturate(5693%) hue-rotate(228deg) brightness(102%) contrast(91%)
+  drop-shadow(2px -2px 1.5px rgba(255, 255, 255, 0.8))
+}
+
+.bridegroom {
+  height: 26rem
+}
+
+body {
+  background-color: #FFF;
+  color: #0F4FF3
 }
 
 header h1 {
