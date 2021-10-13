@@ -9,9 +9,9 @@ layout: default
     <div class="pb3 ttc">
       {% for undangan in site.undangan %}
       <div class="ttc">
-        <a href="{{undangan.url}}">{{undangan.title}}</a>
+        <p>{{undangan.title}}</p>
       </div>
-      <p>{{undangan.url}}</p>
+      <a href="{{undangan.url}}">https://jiwadanrizal.com{{undangan.url}}</a>
       {% endfor %}
     </div>
     <div class="w5 ttc">
@@ -20,9 +20,10 @@ layout: default
     <div>
       {% for undanganvirtual in site.undanganvirtual %}
       <div class="ttc">
-        <a href="{{undanganvirtual.url}}">{{undanganvirtual.title}}</a>
+        <p">{{undanganvirtual.title}}</p>
       </div>
-      <p>https://jiwadanrizal.com{{undanganvirtual.url}}</p>
+      <a href="{{undanganvirtual.url}}">https://jiwadanrizal.com{{undanganvirtual.url}}</a>
+      <p></p>
       {% endfor %}
     </div>
   </div>
