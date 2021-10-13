@@ -1,26 +1,28 @@
 ---
 layout: default
 ---
-<div class="w-100 vh-100 flex justify-center items-center serif">
+<div class="w-100 ma4 flex justify-center items-center serif">
   <div class="w-50-ns w-80">
     <div class="w5">
       Undangan
     </div>
-    <div class="pb3">
+    <div class="pb3 ttc">
       {% for undangan in site.undangan %}
-      <div class="">
+      <div class="ttc">
         <a href="{{undangan.url}}">{{undangan.title}}</a>
       </div>
+      <p>{{undangan.url}}</p>
       {% endfor %}
     </div>
-    <div class="w5">
+    <div class="w5 ttc">
       Undangan Virtual
     </div>
     <div>
       {% for undanganvirtual in site.undanganvirtual %}
-      <div class="">
+      <div class="ttc">
         <a href="{{undanganvirtual.url}}">{{undanganvirtual.title}}</a>
       </div>
+      <p>https://jiwadanrizal.com{{undanganvirtual.url}}</p>
       {% endfor %}
     </div>
   </div>
