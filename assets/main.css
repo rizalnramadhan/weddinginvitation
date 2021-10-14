@@ -27,8 +27,12 @@
   height: 26rem
 }
 
+.header {
+  height: 33rem
+}
+
 body {
-  background-color: #FFF;
+  background-color: #eee;
   color: #0F4FF3
 }
 
