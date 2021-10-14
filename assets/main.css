@@ -10,16 +10,16 @@
   font-style: normal;
 }
 .svg {
-  filter: brightness(0) saturate(100%) invert(15%) sepia(97%) saturate(5693%) hue-rotate(228deg) brightness(102%) contrast(91%)
+  filter: brightness(0) saturate(100%) invert(26%) sepia(67%) saturate(7453%) hue-rotate(10deg) brightness(94%) contrast(92%)
 }
 
 .glow {
-  filter: brightness(0) saturate(100%) invert(15%) sepia(97%) saturate(5693%) hue-rotate(228deg) brightness(102%) contrast(91%)
+  filter: brightness(0) saturate(100%) invert(26%) sepia(67%) saturate(7453%) hue-rotate(10deg) brightness(94%) contrast(92%)
   drop-shadow(4px -4px 2px rgba(255, 255, 255, 0.8))
 }
 
 .glow2 {
-  filter: brightness(0) saturate(100%) invert(15%) sepia(97%) saturate(5693%) hue-rotate(228deg) brightness(102%) contrast(91%)
+  filter: brightness(0) saturate(100%) invert(26%) sepia(67%) saturate(7453%) hue-rotate(10deg) brightness(94%) contrast(92%)
   drop-shadow(2px -2px 1.5px rgba(255, 255, 255, 0.8))
 }
 
@@ -28,12 +28,16 @@
 }
 
 .header {
-  height: 33rem
+  height: 32rem
+}
+
+.logo {
+  width: 14rem
 }
 
 body {
-  background-color: #eee;
-  color: #0F4FF3
+  background-color: #EEEEE8;
+  color: #D92F0A
 }
 
 header h1 {
