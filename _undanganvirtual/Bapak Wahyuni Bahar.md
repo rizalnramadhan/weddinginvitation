@@ -1,3 +1,0 @@
----
----
-Bapak Wahyuni Bahar

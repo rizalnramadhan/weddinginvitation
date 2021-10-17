@@ -1,3 +1,0 @@
----
----
-Bapak Arifin Panigoro

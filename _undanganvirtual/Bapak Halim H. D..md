@@ -1,3 +1,0 @@
----
----
-Bapak Halim H.D

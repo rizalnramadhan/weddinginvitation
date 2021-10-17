@@ -9,6 +9,8 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&display=swap');
 .svg {
   filter: brightness(0) saturate(100%) invert(36%) sepia(57%) saturate(1924%) hue-rotate(348deg) brightness(86%) contrast(90%)
 }
@@ -77,8 +79,16 @@
 
 
 body {
+  margin: 0;
+  font-family: Cantique, sans-serif;
   background-color: #E7E3D9;
   color: #D14C22
+}
+
+.alternate {
+  background-color: #DFD5CD;
+  color: #826845;
+  font-family: Cormorant
 }
 
 header h1 {
@@ -112,8 +122,7 @@ html {
 }
 
 body {
-  margin: 0;
-  font-family: Cantique, sans-serif;
+
 }
 
 h1 {

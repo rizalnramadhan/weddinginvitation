@@ -1,3 +1,0 @@
----
----
-Bapak Oded M. Danial

@@ -1,3 +1,0 @@
----
----
-Prof. Sardono W. Koesoemo

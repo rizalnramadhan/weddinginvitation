@@ -1,3 +1,0 @@
----
----
-Prof. Setiawan Sabana

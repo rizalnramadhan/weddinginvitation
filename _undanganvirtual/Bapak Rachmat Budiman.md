@@ -1,3 +1,0 @@
----
----
-Bapak Rachmat Budiman
