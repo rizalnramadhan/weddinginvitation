@@ -89,9 +89,17 @@ body {
   color: #D14C22
 }
 
+.popup {
+  background-color: #E7E3D9;
+}
+
 .alternate {
   background-color: #DFD5CD;
   color: #826845;
+  font-family: 'Cormorant', serif;
+}
+
+.cormorant {
   font-family: 'Cormorant', serif;
 }
 
