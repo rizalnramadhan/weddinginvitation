@@ -89,6 +89,14 @@ body {
   color: #D14C22
 }
 
+#menu {
+  cursor: pointer;
+}
+
+#close {
+  cursor: pointer;
+}
+
 .popup {
   background-color: #E7E3D9;
 }
